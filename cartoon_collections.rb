@@ -17,7 +17,7 @@ def long_planeteer_calls(array)
       true_or_false = true
     end
   end
-  
+  true_or_false
 end
 
 def find_the_cheese# code an argument here
