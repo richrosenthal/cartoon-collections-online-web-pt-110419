@@ -28,6 +28,3 @@ end
 
 
 
-array.each do |word|
-  puts word.length 
-end
