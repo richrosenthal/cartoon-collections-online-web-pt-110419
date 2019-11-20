@@ -20,9 +20,19 @@ def long_planeteer_calls(array)
   true_or_false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(array)
+  happyIngredients = []
+  
+  if array.include?("cheddar")
+    happyIngredients << "cheddar"
+  end
+  if array.include?("gouda")
+    happyIngredients << "gouda"
+  end
+  if array.include?("camembert")
+    happyIngredients << "camebert"
+  end
+  happyIngredients
 end
 
 
