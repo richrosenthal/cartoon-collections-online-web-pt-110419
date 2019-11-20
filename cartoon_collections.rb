@@ -21,16 +21,16 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  happyIngredients = []
+  happyIngredients = nil
   
   if array.include?("cheddar")
-    happyIngredients << "cheddar"
+    happyIngredients = "cheddar"
   end
   if array.include?("gouda")
-    happyIngredients << "gouda"
+    happyIngredients = "gouda"
   end
   if array.include?("camembert")
-    happyIngredients << "camebert"
+    happyIngredients = "camebert"
   end
   happyIngredients
 end
